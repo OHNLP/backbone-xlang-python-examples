@@ -1,0 +1,9 @@
+name: ExamplePythonBackboneModule
+channels:
+  - defaults
+dependencies:
+  - python=3.10.11
+  - pip=23.1.2
+  - conda-pack
+  - pip:
+      - ohnlp-backbone-xlang-python==1.0.12

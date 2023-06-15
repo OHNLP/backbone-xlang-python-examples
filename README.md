@@ -13,6 +13,8 @@ and implement the following abstract classes (refer to wordcount.py as an exampl
 
 then update `backbone_module.json` accordingly.
 
+Finally, update `environment.yml` with any dependency changes incurred as part of this process. It is strongly encouraged to use conda packages instead of pypi (installed via `conda` as opposed to `pip`) as much as possible to avoid packaging problems
+
 To generate the zip file distributed with backbone, simply push to github with 
 a tag following the format of `'v[0-9]+.[0-9]+.[0-9]+*'` or edit `build.yml` accordingly
 
